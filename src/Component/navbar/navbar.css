@@ -29,3 +29,8 @@ nav ul li{
     list-style: none;
 
 }
+
+.dark-nav{
+    background: rgb(21, 21, 44);
+    transition: .5s ease-out;
+}

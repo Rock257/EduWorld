@@ -1,0 +1,47 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.about-right{
+    flex-basis: 55%;
+}
+
+.about-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.about-icon{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50% ,-50%);
+}
+
+.about-right h3{
+    text-transform: uppercase;
+    color: #232c41;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  
+    font-weight: 800;
+}
+
+.about-right h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 16px 0;
+    max-width: 400px;
+}
+.about-right p{
+    color: #2b2b2c;
+    margin-bottom: 1rem;
+}
