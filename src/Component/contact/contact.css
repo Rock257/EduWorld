@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.contact-left{
+    flex-basis: 40%;
+}
+
+.contact-right{
+    flex-basis: 45%;
+}
