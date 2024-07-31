@@ -4,6 +4,7 @@ import Hero from './Component/hero/Hero'
 import Program from './Component/programs/Program'
 import About from './Component/about/About'
 import Campus from './Component/campus/Campus'
+import Testimonials from './Component/testimonial/Testimonials'
 
 export default function 
 () {
@@ -18,6 +19,7 @@ export default function
     </div>
     <About/>
     <Campus title = "gallery" subtitle = 'campus Photos'/>
+    <Testimonials title ="Testimonial" subtitle ="What Student Say " />
 
     </>
   )

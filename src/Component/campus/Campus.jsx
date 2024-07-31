@@ -20,8 +20,9 @@ function Campus(props){
                     <img src={Gal2} alt="" />
                     <img src={Gal3} alt="" />
                     <img src={Gal4} alt="" />
-                    
                 </div>
+                <button className="btn">See More </button>
+
             </div>
         </>
     )
